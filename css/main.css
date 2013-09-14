@@ -1,11 +1,25 @@
 .navbar {
-	height: 4.2em;
 	border-top: 0.4em solid #EDD7C7;
+}
+
+.navbar-brand, .navbar-text {
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+button#navbar-toggle {
+	border: 2px solid #EDD7C7;
+	z-index: 11;
+	margin: 7px 14px;
+}
+
+button#navbar-toggle:hover {
+	background-color: #EDD7C7;
+	/*z-index: 11;*/
 }
 
 .logo {
 	width: 2em;
-	height: 2em;
 	margin: -0.9em 0.3em 0 0;
 }
 
@@ -19,7 +33,6 @@
 }
 
 .slogan1 {
-	/*margin-left: 9.5em;*/
 	color: #fdd651;
 }
 
@@ -64,6 +77,11 @@
 	-webkit-transform: translateY(0px);
 	-moz-transform: translateY(0px);
 	transform: translateY(0px);
+	z-index: 11;
+}
+
+.navbar-ex1-collapse {
+	border: 0;
 }
 
 #row1 {
@@ -121,4 +139,13 @@
 	#intro h1{
 		padding: 0;
 	}
+
+	.nav-collapse .dropdown-menu a {
+	    padding: 9px 15px;
+	    font-weight: bold;
+	    color: #777777;
+	    -webkit-border-radius: 3px;
+	       -moz-border-radius: 3px;
+	            border-radius: 3px;
+  	}
 }
