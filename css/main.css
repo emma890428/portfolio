@@ -84,7 +84,7 @@ button#navbar-toggle:hover {
 	border: 0;
 }
 
-#row1 {
+.row1 {
 	margin: 1em 0 0 0.1em;
 }
 
@@ -93,7 +93,7 @@ button#navbar-toggle:hover {
 }
 
 #intro h1{
-	padding: 0.3em 0;
+	padding: 0.2em 0;
 }
 
 #intro h3 {
@@ -110,6 +110,26 @@ button#navbar-toggle:hover {
 #myCanvas1, #myCanvas2 {
 	margin-top: 10px;
 }
+
+.workIntro {
+	padding-right: 30px;
+	font-size: 1em;
+}
+
+mark {
+	background-color: #EDD7C7;
+	padding: 0.2em 0.4em;
+	border-radius: 0.3em;
+	color: #669478;
+	margin: 0 0.4em 0.5em 0;
+	display: inline-block;
+}
+
+#info {
+	padding: 0.5em 1.5em;
+	font-size: 1em;
+}
+
 
 /* For mobile viewer */
 @media (max-width: 1199px){
