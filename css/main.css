@@ -7,13 +7,13 @@
 	margin-bottom: 0;
 }
 
-button#navbar-toggle {
+#navbar-toggle {
 	border: 2px solid #EDD7C7;
 	z-index: 11;
 	margin: 7px 14px;
 }
 
-button#navbar-toggle:hover {
+#navbar-toggle:hover {
 	background-color: #EDD7C7;
 	/*z-index: 11;*/
 }
@@ -85,15 +85,25 @@ button#navbar-toggle:hover {
 }
 
 .row1 {
-	margin: 1em 0 0 0.1em;
+	margin-top: 1em;
+}
+
+#slider {
+	margin: 0 0 15px 15px;
+	padding: 0;
+}
+
+#hello {
+	font-size: 2.2em;
 }
 
 #intro {
-	padding: 1.5em 2em;
+	padding: 1.5em auto;
 }
 
 #intro h1{
-	padding: 0.2em 0;
+	margin-top: 1em;
+	padding: 0.2em auto;
 }
 
 #intro h3 {
@@ -101,10 +111,18 @@ button#navbar-toggle:hover {
 	padding: 0.7em;
 	color: #fff;
 	background-color: #9CB5A4;
+
 }
 
 #name {
 	color: #836f5d;
+}
+
+#checkout {
+	width: 140px;
+	height: 140px;
+	margin: 10% 10% 0 0;
+	float: right;
 }
 
 #myCanvas1, #myCanvas2 {
@@ -112,8 +130,8 @@ button#navbar-toggle:hover {
 }
 
 .workIntro {
-	padding-right: 30px;
 	font-size: 1em;
+	margin: 2em 0;
 }
 
 mark {
@@ -127,9 +145,20 @@ mark {
 
 #info {
 	padding: 0.5em 1.5em;
-	font-size: 1em;
+	font-size: 0.9em;
 }
 
+#info h4, #info p {
+	display: inline;
+}
+
+#info h4 {
+	margin-right: 10px;
+}
+
+#info p {
+	margin-right: 20px;
+}
 
 /* For mobile viewer */
 @media (max-width: 1199px){
@@ -137,8 +166,9 @@ mark {
 	  	font-size: 2em;
 	}
 	h3 {
-	  	font-size: 1.3em;
+	  	font-size: 1.5em;
 	}
+
 }
 
 @media (max-width: 991px){
@@ -148,9 +178,6 @@ mark {
 }
 
 @media (max-width: 767px){
-	#slider {
-		display: none;
-	}
 
 	#intro {
 		padding: 0;
