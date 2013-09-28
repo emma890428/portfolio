@@ -89,11 +89,6 @@
 	margin-top: 1em;
 }
 
-#slider {
-	margin: 0 0 15px 15px;
-	padding: 0;
-}
-
 #hello {
 	font-size: 2.2em;
 }
@@ -126,11 +121,16 @@
 	float: right;
 }
 
+#resume {
+	float: right;
+	margin-right: 15px;
+}
+
 #me {
 	margin: 1.5em 0;
 }
 
-#myCanvas1, #myCanvas2 {
+#myCanvas1 {
 	margin-top: 30px;
 }
 

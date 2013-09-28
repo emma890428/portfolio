@@ -25,7 +25,7 @@
         	<script src="js/html5shiv.js"></script>
         	<script src="js/respond.min.js"></script>
     	<![endif]-->
-    	
+
 	</head>
 	<body>
 		<div id="wrap">
@@ -96,11 +96,11 @@
 		    		</div>
 		    		<div class="col-md-3">
 		    			<div class="jumbotron summary">
-		    				<a href="works/hcn.html"><img class="smrImg" src="img/works/hcn_oblique.jpg">
-		    				<h3>HCN Web Database</h3>
-		    				<h4>PHP Web Database Developed for an Non-Profit Organization</h4></a>
-		    				<p>It supplies online rent management and payment solutions for Ann Arbor landlords and property management firms.</p>
-		    				<p><mark>iOS App</mark><mark>PhoneGap</mark><mark>jQueryMobile</mark><mark>PHP</mark><mark>Git</mark><mark>RESTful</mark><mark>MVC</mark></p>
+		    				<a href="works/academy.html"><img class="smrImg" src="img/works/academy_oblique.jpg">
+		    				<h3>Academic Network of UMSI Professors</h3>
+		    				<h4>Social Network Analysis and Visualization</h4></a>
+		    				<p>This study identified the collaboration relationship between UMSI faculties and researchers from other organizations, and concluded two major factors that affect the co-author relationship – common research interest and geographical distance.</p>
+		    				<p><mark>Academic Network</mark><mark>Information Visualization</mark><mark>Social Network Analysis</mark><mark>Data Manipulation</mark></p>
 		    			</div>
 		    		</div>
 		    		<div class="col-md-3">
@@ -121,15 +121,15 @@
 		    				<p><mark>Identity</mark><mark>Logotype</mark><mark>Brochure</mark><mark>Business Card</mark><mark>Web Mockup</mark><mark>Illustrator</mark><mark>InDesign</mark><mark>Photoshop</mark></p>
 		    			</div>
 		    		</div>
-		    		<!-- <div class="col-md-3">
+		    		<div class="col-md-3">
 		    			<div class="jumbotron summary">
-		    				<a href="works/note.html"><img class="smrImg" src="img/works/note_smr.jpg">
-		    				<h3>Where Have I Been3?</h3>
-		    				<h4>HTML5 LocalStorage iPhone Application</h4></a>
-		    				<p>"Where Have I Been" allows user to take notes with their current location information. It stores data locally so that it gives users more privacy.</p>
-		    				<p><mark>HTML5</mark><mark>LocalStorage</mark><mark>Geolocation</mark><mark>BackboneJS</mark><mark>jQueryMobile</mark><mark>Note Taking</mark></p>
+		    				<a href="works/hcn.html"><img class="smrImg" src="img/works/hcn_oblique.jpg">
+		    				<h3>HCN Web Database</h3>
+		    				<h4>PHP Web Database Developed for an Non-Profit Organization</h4></a>
+		    				<p>It supplies online rent management and payment solutions for Ann Arbor landlords and property management firms.</p>
+		    				<p><mark>iOS App</mark><mark>PhoneGap</mark><mark>jQueryMobile</mark><mark>PHP</mark><mark>Git</mark><mark>RESTful</mark><mark>MVC</mark></p>
 		    			</div>
-		    		</div> -->
+		    		</div>
 		    	</div>
 		    </div>
 		    <!-- </div> -->
@@ -145,13 +145,16 @@
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 	    <script src="js/jquery-1.10.2.min.js"></script>
 	    <script src="js/bootstrap.min.js"></script>
+	    <script src="js/imagesloaded.pkgd.min.js"></script>
 	    <script src="js/masonry.pkgd.min.js"></script>
 	    <script type="text/javascript">
 			var $container = $('#works');
 			// initialize
-			$container.masonry({
-			  columnWidth: '.col-md-3',
-			  itemSelector: '.col-md-3'
+			$container.imagesLoaded( function() {
+			    $container.masonry({
+				    columnWidth: '.col-md-3',
+				    itemSelector: '.col-md-3'
+				});
 			});
 			var msnry = $container.data('masonry');
 	    </script>
