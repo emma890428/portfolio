@@ -148,6 +148,7 @@ mark {
 	display: inline-block;
 }
 
+
 #info {
 	padding: 0.5em 1.5em;
 	font-size: 0.9em;
@@ -163,6 +164,42 @@ mark {
 
 #info p {
 	margin-right: 20px;
+}
+
+#contact .row {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+#contact pre {
+	background: none;
+	border: none;
+	font-size: 0.75em;
+	margin-bottom: -15px;
+	/*padding-bottom: 0;*/
+}
+
+#contact .jumbotron {
+	padding: 0 1em;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+#contact mark {
+	background-color: #836f5d;
+	color: #fff;
+}
+
+#contact span{
+	font-size: 1.8em;
+}
+
+#contact h2{
+	margin: 10px 0;
+}
+
+#contact h1{
+	margin: 28px 0;
 }
 
 /* For mobile viewer */

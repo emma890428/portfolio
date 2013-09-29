@@ -1,9 +1,12 @@
 .container .summary {
-	padding: 5%;
+	padding: 5% 5% 1% 5%; 
 }
 
 .smrImg {
-	width: 100%;
+	/*width: 100%;*/
+	width: 111.3%;
+	margin: -5.5% -5% 0 -5.5%;
+	border-radius: 5px 5px 0 0 ;
 	opacity: 0.8;
 }
 
