@@ -59,8 +59,14 @@
 		    </nav>
 
 		    <div class="container" id="contact">
+		    	<div class="col-md-1 col-md-offset-10" id="icons">
+						<a href="https://github.com/emma890428" target="_blank"><i class="icon-github-squared"></i></a>
+						<a href="http://www.linkedin.com/pub/lei-zhang/4a/893/909" target="_blank"><i class="icon-linkedin-squared"></i></a>
+						<a href="http://leizhang0428.tumblr.com/" target="_blank"><i class="icon-tumblr-squared"></i></a>
+						<a href="https://plus.google.com/u/1/102060639361174835408/posts" target="_blank"><i class="icon-gplus-squared"></i></a>
+					</div>
 		    	<div class="row row1">
-					<div class="col-md-12 title">
+					<div class="col-md-11 title">
 						<h1>function ContactMe ( theWayYouLike ) {</h1>
 					</div>
 				</div>
@@ -75,12 +81,6 @@
 						</pre>
 					</div>
 					<div class="col-md-1"><h2>)</h2></div>
-					<div class="col-md-1">
-						<a href="https://github.com/emma890428" target="_blank"><i class="icon-github-squared"></i></a>
-						<a href="http://www.linkedin.com/pub/lei-zhang/4a/893/909" target="_blank"><i class="icon-linkedin-squared"></i></a>
-						<a href="http://leizhang0428.tumblr.com/" target="_blank"><i class="icon-tumblr-squared"></i></a>
-						<a href="https://plus.google.com/u/1/102060639361174835408/posts" target="_blank"><i class="icon-gplus-squared"></i></a>
-					</div>
 				</div>
 				<div class="row">
 					<div class="col-md-8 col-md-offset-1" >
@@ -91,11 +91,11 @@
 					<div class="col-md-1 col-md-offset-1"><h2>{</h2></div>
 					<div class="col-md-8 jumbotron">
 						<pre>
-case <span class="glyphicon glyphicon-send"></span> "Email": Send me an email through <a href="mailto:leizh@umich.edu"><mark>leizh@umich.edu</mark></a>;
+case <span class="glyphicon glyphicon-send"></span> "Email": Send me an email through <a href="mailto:leizh@umich.edu"><mark id="email">leizh@umich.edu</mark></a>;
 		  break;
-case <span class="glyphicon glyphicon-phone"></span> "Phone": Call or text me. My number is <mark>(734) 276-5587</mark>;
+case <span class="glyphicon glyphicon-phone"></span> "Phone": Call or text me. My number is <mark id="phone">(734) 276-5587</mark>;
 		  break;
-case <span class="glyphicon glyphicon-envelope"></span> "Mail": Contact me through mail if you like. My address is <mark>1180 Reed Ave APT 49, Sunnyvale, CA 94086</mark>;
+case <span class="glyphicon glyphicon-envelope"></span> "Mail": Contact me through mail if you like. My address is <mark id="address">1180 Reed Ave APT 49, Sunnyvale, CA 94086</mark>;
 		  break;
 default: Email is the best and the most comfortable way to talk to me;
 						</pre>
