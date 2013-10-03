@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Lei Zhang | Works - Where Have I Been?</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		
+		<!-- Favicon for Major Browsers -->
+		<link rel="icon" type="image/x-icon" href="../img/favicon16.ico">
+		<!-- Internet Explorer-->
+		<!--[if IE]><link rel="SHORTCUT ICON" href="../img/favicon16.ico"/><![endif]-->
+
+		<!-- Google Fonts -->
+		<link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,700' rel='stylesheet' type='text/css'>
+
+		<!-- CSS -->
+    	<link href="../css/bootstrap.min.css" rel="stylesheet">
+    	<link href="../css/lavish-bootstrap.css" rel="stylesheet" type="text/css" />
+    	<link href="../css/sticky-footer-navbar.css" rel="stylesheet">
+    	<link href="../css/main.css" rel="stylesheet" type="text/css" />
+    	<link href="../css/responsiveslides.css" rel="stylesheet" type="text/css" />
+    	<link href="../css/themes.css" rel="stylesheet" type="text/css" />
+
+    	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    	<!--[if lt IE 9]>
+        	<script src="../js/html5shiv.js"></script>
+        	<script src="../js/respond.min.js"></script>
+    	<![endif]-->
+    	
+	</head>
+	<body>
+		<div id="wrap">
+			<!-- Fixed navbar -->
+		    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+				<div class="container">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" id="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+					    </button>
+						<a class="navbar-brand" href="../index.html"><img class="logo" src="../img/logo.png" /><span class="logoText">LEI ZHANG</span>
+						</a>
+					</div>
+					<p class="navbar-text">
+						<span class="slogan slogan1">Web</span><span class="slogan slogan2"> Makes</span><span class="slogan slogan3"> Life </span><span class="slogan slogan4">Beautiful.</span>
+					</p>
+					<div class="navbar-inverse navbar-collapse collapse navbar-ex1-collapse">
+						<ul class="nav navbar-nav navbar-right cl-effect-4">
+							<li><a href="../index.html"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+							<li class="active"><a href="../works.html"><span class="glyphicon glyphicon-briefcase"></span> Works</a></li>
+							<li><a href="../about.html"><span class="glyphicon glyphicon-info-sign"></span> About</a></li>
+							<li><a href="../contact.html"><span class="glyphicon glyphicon-envelope"></span> Contact</a></li>
+						</ul>
+					</div><!--/.nav-collapse -->
+				</div>
+		    </div>
+
+		    <div class="container">
+		    	<div class="row row1">
+		    		<div class="col-md-4">
+		    			<h2>Where Have I Been?</h2>
+		    			<div class="workIntro">
+			    			<p>I'm currently working on a small project of a note taking iPhone application. I'm learning BackboneJS framework now. So I used this project as an exercise.</p>
+			    			<p>It allows user to take notes with their current location information, similar to a check-in mobile application like Path. The difference is that it stores data locally which gives users more privacy. So it's very suitable for users to write diaries or travel journals to record their personal life. When a user saves his notes, besides the note title and content, the application can also store the latitude and longitude values of the current location. It then generates a static Google map showing the location in the note.</p>
+			    			<p>This application can list all the notes which the user has taken in two different orders - alphabetical order and location distance order.</p>
+			    		</div>
+			    		<p><mark>HTML5</mark><mark>LocalStorage</mark><mark>Geolocation</mark><mark>BackboneJS</mark><mark>jQueryMobile</mark><mark>Note Taking</mark><mark>Front-end Development</mark></p>
+				    </div>
+		    		
+		    		<div class="col-md-8">
+				    	<div class="row rslides_container">
+				    		<ul class="rslides">
+							  <li><img src="../img/works/note1.jpg" alt="Home Page"><p class="caption">Home Page</p></li>
+							  <li><img src="../img/works/note2.jpg" alt="Create a New Note with or without Location Information"><p class="caption">Create a New Note with or without Location Information</p></li>
+							  <li><img src="../img/works/note3.jpg" alt="Sort Notes by Distance, Show Notes with Location or without Location"><p class="caption">Sort Notes by Distance, and Show Notes with Location or without Location</p></li>
+							</ul>
+					    </div>
+					    <div class="jumbotron" id="info">
+				    		<h4>Type</h4>
+				    		<p>Personal Project</p>
+				    		<h4>Time</h4>
+				    		<p>26/06/2013 to 01/09/2013</p>
+				    		<br>
+				    		<h4>Techniques</h4>
+				    		<p>HTML5 Cache, LocalStorage, Geolocation, BackboneJS, jQuery, jQueryMobile, XAMPP.</p>
+				    		<br><h4>Deliverables</h4>
+				    		<p>Source code on Github: <a href="https://github.com/emma890428/HTML5-Mobile" target="_blank"><button type="button" class="btn btn-primary">Where Have I Been?</button></a></p>
+				    	</div>
+		   			</div>
+		    	</div>
+		    </div>
+	    </div>
+
+		<!-- footer -->
+	    <div id="footer">
+		    <div class="container">
+		        <p class="text-muted credit">Copyright &copy; 2013 Lei Zhang | Portfolio. Designed &amp; coded by Lei Zhang.</p>
+		    </div>
+    	</div>
+
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	    <script src="../js/jquery-1.10.2.min.js"></script>
+	    <script src="../js/bootstrap.min.js"></script>
+	    <script src="../js/responsiveslides.min.js"></script>
+	    <script>
+			$(function() {
+				$(".rslides").responsiveSlides(
+					{
+						auto: false,
+				        pager: true,
+				        nav: true,
+				        speed: 500,
+				        maxwidth: 900,
+				        namespace: "centered-btns"
+					}
+				);
+			});
+		</script>
+	</body>
+</html>

@@ -1,0 +1,45 @@
+.container .summary {
+	padding: 5% 5% 1% 5%; 
+}
+
+.smrImg {
+	/*width: 100%;*/
+	width: 111.3%;
+	margin: -5.5% -5% 0 -5.5%;
+	border-radius: 5px 5px 0 0 ;
+	opacity: 0.8;
+}
+
+
+.summary h3{
+	margin-top: 4%;
+	font-size: 1em;
+}
+
+.summary h4{
+	font-size: 0.7em;
+}
+
+.summary p{
+	font-size: 0.65em;
+	color: #8ba593;
+}
+
+mark {
+	font-size: 0.85em;
+	background-color: #836f5d;
+	color: #dae8e2;
+}
+
+a {
+	color: #7ba289;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #669478;
+}
+
+a img:hover {
+	opacity: 1;
+}
